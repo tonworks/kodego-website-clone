@@ -1,14 +1,6 @@
 @import 'normalize.css';
+@import './base/_global';
 @import './modules/_container';
-
-* {
-    box-sizing: border-box;
-}
-
-a, a:active {
-    text-decoration: none;
-    color: inherit;
-}
 
 .nav {
     float: right;
