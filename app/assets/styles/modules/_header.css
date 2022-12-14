@@ -1,6 +1,7 @@
 .header {
     &__nav {
         float: right;
+        color: $mainBlue;
     
     & li {
             display: inline-block;
