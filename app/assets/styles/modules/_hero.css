@@ -8,4 +8,22 @@
   &__image {
     width: 100%;
   }
+
+  &__container {
+    display: flex;
+  }
+
+  &__text-content {
+    width: 50%;
+    border: 1px solid black;
+  }
+
+  &__image-container {
+    width: 50%;
+    border: 1px solid black;
+  }
+
+  &__image {
+    width: 100%;
+  }
 }
