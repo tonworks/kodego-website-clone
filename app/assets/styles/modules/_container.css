@@ -1,13 +1,16 @@
 .container {
-  width: 85%;
-  margin: auto;
-  border: 1px solid black;
+  width: 100%;
 
-  &--padded {
-    padding: 1.25rem;
+  @mixin atLaptop {
+    width: 85%;
+    margin: auto;
   }
 
-  &--wide {
-    width: 90%;
+  &--padded {
+    padding: 1rem;
+  }
+
+  &--p-bottom {
+    padding-bottom: 2.5rem;
   }
 }

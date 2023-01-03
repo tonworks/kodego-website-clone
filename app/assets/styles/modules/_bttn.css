@@ -1,4 +1,4 @@
-.bttn {
+.btn {
   padding: 1.25rem 1rem;
   display: inline-block;
   border-radius: 5px;
@@ -6,6 +6,10 @@
 
   &--primary {
     background-color: $mainGreen;
-    color: white;
+    color: #fff;
+  }
+
+  &--wide {
+    padding: 1.25rem 8rem;
   }
 }
